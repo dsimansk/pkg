@@ -35,10 +35,12 @@ require (
 	github.com/kballard/go-shellquote v0.0.0-20180428030007-95032a82bc51
 	github.com/kelseyhightower/envconfig v1.4.0
 	github.com/mailru/easyjson v0.7.7 // indirect
+	github.com/mitchellh/go-homedir v1.1.0
 	github.com/onsi/gomega v1.10.1 // indirect
 	github.com/openzipkin/zipkin-go v0.2.5
 	github.com/prometheus/client_golang v1.11.0
 	github.com/prometheus/common v0.26.0
+	github.com/spf13/cobra v1.1.1
 	github.com/spf13/pflag v1.0.5
 	github.com/tsenart/vegeta/v12 v12.8.4
 	go.opencensus.io v0.23.0
@@ -57,6 +59,7 @@ require (
 	google.golang.org/grpc v1.38.0
 	google.golang.org/protobuf v1.26.0
 	gopkg.in/yaml.v3 v3.0.0-20210107192922-496545a6307b
+	gotest.tools/v3 v3.0.2
 	k8s.io/api v0.20.7
 	k8s.io/apiextensions-apiserver v0.20.7
 	k8s.io/apimachinery v0.20.7
